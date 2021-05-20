@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/154e3c8807.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    
+
+    <!-- header -->
+    <div class="nav-header">
+        <div class="container">
+            <ul class="nav">
+                <li><a href="#">Bình!</a></li>
+                <li><a href="#">Sign Out</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="header">
+        <div class="container">
+            <h1 class="title">Quản lí công việc</h1>
+        </div>
+    </div>
+
+    <!-- content -->
+    <div class="content">
+        <div class="container">
+            <!-- task-form -->
+            <div class="task-form">
+                <div class="task-header">
+                    <span class="task-name">Thêm công việc</span>
+                    <i class="far fa-times-circle"></i>
+                </div>
+                <div class="task-input">
+                    <form>
+                        <span>Tên công việc</span>
+                        <input type="text" class="input-text" placeholder="Tên công việc"/>
+                        <span>Trạng thái</span>
+                        <select class="input-text">
+                            <option>Ẩn</option>
+                            <option>Kích hoạt</option>
+                        </select>
+                        <button type="submit" class="btn green">Cập nhật</button>
+                        <button type="submit" class="btn red">Hủy bỏ</button>
+                    </form>
+                </div>
+            </div>
+            <div class="clear-both"></div>
+            
+
+            <!-- task-list -->
+            <div class="task-list">
+                <div class="open-form">
+                    <button type="submit" class="btn btn-open">Thêm công việc</button>
+                </div>
+                <div class="form-search">
+                    <input type="text" class="input-text" placeholder="Tên công việc"/>
+                    <button type="submit" class="btn blue">Sắp xếp</button>
+                </div>
+                <table class="tb-list">
+                    <thead>
+                        <tr>
+                            <td class="col-1">STT</td>
+                            <td class="col-2">Tên công việc</td>
+                            <td class="col-3">Trạng thái</td>
+                            <td class="col-4">Chức năng</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Học tập</td>
+                            <td>Kích hoạt</td>
+                            <td>
+                                <button type="submit" class="btn green">Sửa</button>
+                                <button type="submit" class="btn red">Xóa</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Học tập</td>
+                            <td>Kích hoạt</td>
+                            <td>
+                                <button type="submit" class="btn green">Sửa</button>
+                                <button type="submit" class="btn red">Xóa</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Login -->
+    <!-- <div class="login">
+        <div class="container">
+            <form class="form-login" onSubmit = {onSubmitHandle}>
+            <span class="logo">login</span>
+            <input 
+                class="input-text" 
+                type="text" 
+                placeholder="Email" 
+                name = "email"
+                />
+            <input 
+                class="input-text" 
+                type="password" 
+                placeholder="Password" 
+                name = "password"
+                />
+            <div>
+                <button type="submit" class="btn-login">Login</button>
+                <button type="submit" class="btn-login" >Register</button>
+            </div>
+            </form>
+        </div>
+    </div> -->
+
+
+    <!-- register -->
+    <!-- <div class="login">
+        <div class="container">
+            <form class="form-login form-register" onSubmit = {onSubmitHandle}>
+            <span class="logo">Register</span>
+            <input 
+                class="input-text" 
+                type="text" 
+                placeholder="Username" 
+                name ="name"
+                value = {inputUser.name}
+                onChange = {onChangeHandle}
+                />
+            <input 
+                class="input-text" 
+                type="text" 
+                placeholder="Email" 
+                value = {inputUser.email}
+                name="email"
+                onChange = {onChangeHandle}
+                />
+            <input 
+                class="input-text" 
+                type="password" 
+                placeholder="Password" 
+                value = {inputUser.password}
+                name = "password"
+                onChange = {onChangeHandle}
+                />
+            <div><button type="submit" class="btn-login">Register</button></div>
+            </form>
+        </div>
+    </div> -->
+</body>
+</html>

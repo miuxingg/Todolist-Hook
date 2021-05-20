@@ -1,0 +1,176 @@
+*{
+  box-sizing: border-box;
+}
+body{
+margin: 0;
+font-family: 'Roboto', Arial, sans-serif;
+font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+a{
+text-decoration: none;
+}
+img{
+width: 100%;
+padding: 0;
+vertical-align: center;
+}
+.container{
+  width: 1000px;
+  max-width: 100%;
+  margin: auto;
+}
+.header{
+  font-weight: 500;
+}
+.bull-left{
+  float: left;
+}
+.mg-0{
+  margin: 0 !important;
+}
+.pd-0{
+  padding: 0 !important;
+}
+.text-centre{
+  text-align: center;
+}
+.content-left{
+  width: 30%;
+  float: left;
+  padding-right: 30px;
+}
+.content-right{
+  width: 70%;
+  float: left;
+  padding-left: 30px;
+}
+.heading{
+  float: left;
+  height: 30px;
+  background-color: lightgoldenrodyellow ;
+}
+.title{
+  display: inline-block;
+  line-height: 30px;
+  font-weight: bold;
+}
+.icon{
+  display: inline-block;
+  padding-left: 130px;
+  line-height: 30px;
+}
+.form{
+  border: 1px solid lightgray;
+  min-height: 200px;
+  padding: 0 10px;
+}
+.lable{
+  font-weight: 600;
+  padding: 10px 0;
+}
+.width-100{
+  width: 100%;
+}
+.width-10{
+  width: 10%;
+}
+.width-20{
+  width: 20%;
+}
+.width-50{
+  width: 50%;
+}
+.header{
+  float: left;
+  width: 100%;
+}
+
+.nav{
+  float: right;
+}
+.nav li{
+  display: inline;
+  padding: 10px 15px;
+}
+.nav a{
+  color: black;
+  font-size: 16px;
+}
+.input-text{
+  height: 30px;
+  font-size: 15px;
+}
+.selection{
+  height: 30px;
+  font-size: 15px;
+}
+.bg-orange{
+  background-color: orange;
+}
+.bg-red{
+  background-color: red;
+}
+.bg-green{
+  background-color: green;
+}
+
+.bg-blue{
+  background-color: blue;
+}
+.submit{
+  height: 30px;
+  margin: auto;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 0 15px;
+}
+.btn-add{
+  width: 30%;
+}
+.search-swap{
+  padding-top: 15px;
+}
+.posi-parent{
+  position: relative;
+}
+.sub-menu{
+  
+  position: absolute;
+}
+.table{
+  width: 100%;
+  margin-top: 15px;
+  border-collapse: collapse;
+}
+th{
+  font-size: 16px;
+  padding-top: 10px;
+  border: 1px solid lightgray;
+}
+td{
+  border: 1px solid lightgray;
+  text-align: center;
+  font-size: 16px;
+  padding:5px 0;
+}
+
+.color-green{
+  color: green;
+}
+
+.color-red{
+  color: red;
+}
+
+.login{
+  width: 100%;
+}
+
+.form-login{
+  width: 50%;
+  height: 300px;
+}
