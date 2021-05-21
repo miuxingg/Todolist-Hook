@@ -31,7 +31,7 @@ function App() {
     task: "",
     status: false,
   });
-  const defautData = useRef(state.tasks);
+  const defautData = useRef();
   const [pagination, setPagination] = useState({
     page: 1,
     limit: 4,
@@ -90,7 +90,7 @@ function App() {
     const taskList = response.data.data;
     dispatch({ type: "GET_USER_TASKS", payload: taskList });
     dispatch({ type: "TOTAL_TASK", payload: response.data.length });
-    console.log(taskList);
+    defautData.current = taskList;
   });
 
   useEffect(() => {
@@ -196,7 +196,7 @@ function App() {
   };
 
   const onSearchData = (value) => {
-    defautData.current = state.tasks;
+    console.log(defautData.current);
     if (value !== "") {
       const element = defautData.current.filter((task) => {
         return task.task.toLowerCase().indexOf(value.toLowerCase()) !== -1;
