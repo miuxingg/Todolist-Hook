@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-
-
+import {debounce} from 'lodash';
 function SearchForm(props) {
     const {searchData} = props;
     const [input, setInput] = useState("");
